@@ -8,7 +8,7 @@ Integrate your nvim and terminal theme, and randomize them between a preselected
 ## Setup
 
 ### lazy.nvim:
-'''lua
+```lua
 return {
     'jackhamilton/themester.nvim',
     lazy = false,
@@ -21,4 +21,4 @@ return {
         'rcarriga/nvim-notify' -- if notify is true
     },
 }
-'''
+```
