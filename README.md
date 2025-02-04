@@ -15,7 +15,7 @@ return {
     opts = {
         themester_plugin_env_var = "NVIM_THEME_PLUGIN", -- As configured in your themester.zsh config.toml
         themester_theme_env_var = "NVIM_THEME", -- As configured in your themester.zsh config.toml
-        notify = true, -- optional, defaults to false
+        notify = true, -- optional, defaults to false. If true, prints the theme name when loaded.
     },
     dependencies = {
         'rcarriga/nvim-notify' -- if notify is true
