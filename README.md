@@ -4,12 +4,9 @@
 ![Lua](https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua)
 
 
+Integrate your nvim and terminal theme, and randomize them between a preselected list of options. NVIM integration for [themester.zsh](https://github.com/jackhamilton/themester.zsh/).
 
 https://github.com/user-attachments/assets/98a88a46-1e6f-4d8d-9058-51b83d54457a
-
-
-
-Integrate your nvim and terminal theme, and randomize them between a preselected list of options. NVIM integration for themester.zsh.
 
 ## Setup
 
