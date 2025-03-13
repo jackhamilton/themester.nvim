@@ -26,7 +26,8 @@ function M.load_theme(opts)
         local theme = os.getenv(opts.themester_theme_env_var)
         vim.cmd("colorscheme " .. theme)
         if opts.notify == true then
-            require("notify")(theme)
+            local notify = require("snacks.notify")
+            notify.info(theme or "Themester: Theme not found.")
         end
     end
 end
