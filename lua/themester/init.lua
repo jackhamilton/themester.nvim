@@ -27,7 +27,11 @@ function M.load_theme(opts)
         vim.cmd("colorscheme " .. theme)
         if opts.notify == true then
             local notify = require("snacks.notify")
-            notify.info(theme or "Themester: Theme not found.")
+            local notify_opts = {
+                title = "Themester"
+            }
+            ---@cast notify_opts snacks.notifier.Notif.opts
+            notify.info(theme or "Themester: Theme not found.", notify_opts)
         end
     end
 end
