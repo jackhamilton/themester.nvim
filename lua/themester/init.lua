@@ -18,7 +18,7 @@ function M.load_theme(opts)
     ---@cast opts themester.Opts
     if (opts.themester_plugin_env_var ~= nil and opts.themester_plugin_env_var ~= "") then
         local plug = os.getenv(opts.themester_plugin_env_var)
-        if plug and plug ~= "none" then
+        if plug and plug ~= "none" and plug ~= "" then
             require(plug).setup({})
         end
     end
